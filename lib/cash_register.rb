@@ -13,6 +13,9 @@ class CashRegister
     @items << name
   end
   
+  def apply_discount
+    
+  
   def void_last_transaction
     @total -= @price
   end

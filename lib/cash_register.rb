@@ -13,6 +13,9 @@ class CashRegister
     @items << name
   end
   
+  def void_last_transaction
+    
+  
 end
     
   

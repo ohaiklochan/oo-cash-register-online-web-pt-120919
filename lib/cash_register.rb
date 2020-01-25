@@ -17,8 +17,9 @@ class CashRegister
     if @discount > 0
       @discount = @discount/100.to_f
       @total = @total - (@total * (@discount))
+      return ""
     else
-      puts "there is no discount to apply"
+      return "there is no discount to apply"
     end
   end
   
